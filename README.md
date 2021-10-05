@@ -20,3 +20,27 @@ public class Exercicio2AnoBissexto {
 		}
 	}
 }
+
+ENGLISH!!!
+# LeapYear
+Checks if the year is a leap year.
+
+package controle;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2AnoBissexto {
+
+	public static void main(String[] args) {
+		
+		String get = JOptionPane.showInputDialog("Type a year:");
+		Double year = Double.parseDouble(get);
+		
+		if (year % 4 == 0) {
+			System.out.println("Leap Year.");
+		}
+		else {
+			System.out.println("Not a Leap Year.");
+		}
+	}
+}
