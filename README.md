@@ -1,4 +1,4 @@
-# anobissexto
+# AnoBissexto
 Programa verifica se ano é bissexto.
 
 package controle;
