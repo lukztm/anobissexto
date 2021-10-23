@@ -1,11 +1,9 @@
 # AnoBissexto
 Programa verifica se ano é bissexto.
 
-package controle;
+	import javax.swing.JOptionPane;
 
-import javax.swing.JOptionPane;
-
-public class Exercicio2AnoBissexto {
+	public class Exercicio2AnoBissexto {
 
 	public static void main(String[] args) {
 		
@@ -18,18 +16,17 @@ public class Exercicio2AnoBissexto {
 		else {
 			System.out.println("Ano não bissexto.");
 		}
+	    }
 	}
-}
 
 ENGLISH!!!
 # LeapYear
 Checks if the year is a leap year.
 
-package controle;
 
-import javax.swing.JOptionPane;
+	import javax.swing.JOptionPane;
 
-public class Exercicio2AnoBissexto {
+	public class Exercicio2AnoBissexto {
 
 	public static void main(String[] args) {
 		
@@ -42,5 +39,5 @@ public class Exercicio2AnoBissexto {
 		else {
 			System.out.println("Not a Leap Year.");
 		}
+	    }
 	}
-}
